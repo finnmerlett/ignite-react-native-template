@@ -3,6 +3,8 @@ const config = require("../package.json").detox
 const adapter = require("detox/runners/jest/adapter")
 
 jest.setTimeout(120000)
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 jasmine.getEnv().addReporter(adapter)
 
 beforeAll(async () => {

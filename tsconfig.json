@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
-    "allowJs": false,
     "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "checkJs": true,
     "experimentalDecorators": true,
     "jsx": "react-native",
     "module": "es2015",
@@ -33,7 +34,7 @@
     "e2e",
     "test",
     "storybook",
-    "tailwind.config.js"
+    "./*.config.js"
   ],
   "extends": "expo/tsconfig.base"
 }
