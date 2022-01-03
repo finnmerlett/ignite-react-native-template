@@ -19,13 +19,21 @@
     "skipLibCheck": true,
     "resolveJsonModule": true
   },
+  "linterOptions": {
+    "exclude": [
+      "**/*.ejs"
+    ]
+  },
   "exclude": [
     "node_modules"
   ],
   "include": [
     "App.js",
     "app",
+    "e2e",
     "test",
-    "storybook"
-  ]
+    "storybook",
+    "tailwind.config.js"
+  ],
+  "extends": "expo/tsconfig.base"
 }

@@ -85,6 +85,7 @@
     "eslint-plugin-promise": "4.2.1",
     "eslint-plugin-react": "7.21.5",
     "eslint-plugin-react-native": "3.10.0",
+    "expo-cli": "^5.0.3",
     "expo-detox-hook": "1.0.10",
     "fbjs-scripts": "3.0.0",
     "jest": "^25.5.4",
@@ -117,7 +118,7 @@
     ]
   },
   "prettier": {
-    "printWidth": 100,
+    "printWidth": 85,
     "semi": false,
     "singleQuote": false,
     "trailingComma": "all"
@@ -175,6 +176,11 @@
       "jest": false,
       "it": false
     },
+    "ignorePatterns": [
+      "*.ejs",
+      "*.config.*js",
+      "**/node_modules/*"
+    ],
     "rules": {
       "@typescript-eslint/ban-ts-ignore": 0,
       "@typescript-eslint/explicit-function-return-type": 0,
