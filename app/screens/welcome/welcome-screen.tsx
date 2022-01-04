@@ -110,7 +110,7 @@ export const WelcomeScreen: FC<
         </Text>
         <Text style={TITLE} preset="header" tx="welcomeScreen.readyForLaunch" />
         <Image source={bowserLogo} style={BOWSER} />
-        <Text style={tws(NO_COLOR_CONTENT, "text-primary")}>
+        <Text style={tws(NO_COLOR_CONTENT, "text-primary font-bold")}>
           This probably isn't what your app is going to look like. Unless your
           designer handed you this screen and, in that case, congrats! You're ready
           to ship.
